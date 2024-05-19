@@ -33,7 +33,11 @@ namespace NewsApiWPF.Service
                     newsCollection.Clear();
                     foreach (var article in articlesResponse.Articles)
                     {
-                        newsCollection.Add(article);
+                        // Перевірка наявності заголовка
+                        if (!string.IsNullOrWhiteSpace(article.Title) && !string.IsNullOrWhiteSpace(article.Author))
+                        {
+                            newsCollection.Add(article);
+                        }
                     }
                 }
                 else

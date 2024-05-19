@@ -61,7 +61,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Commands\AsyncCommand.cs" />
+    <Compile Include="Commands\AsyncCommandBase.cs" />
+    <Compile Include="Commands\IAsyncCommand.cs" />
+    <Compile Include="Service\CommandService.cs" />
+    <Compile Include="Service\DownloadNewsService.cs" />
     <Compile Include="Service\NewsService.cs" />
+    <Compile Include="Service\SearchService.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

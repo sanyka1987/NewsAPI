@@ -1,4 +1,5 @@
-﻿using NewsAPI.Models;
+﻿using NewsAPI.Constants;
+using NewsAPI.Models;
 using NewsApiWPF.Commands;
 using NewsApiWPF.Service;
 using System;
@@ -8,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
+using System.Windows.Input;
 
 namespace NewsApiWPF.ViewModels
 {
@@ -17,6 +19,9 @@ namespace NewsApiWPF.ViewModels
         private readonly SearchService _searchService;
         private readonly CommandService _commandService;
         private readonly DownloadNewsService _downloadNewsService;
+        //вся колекція
+        public ObservableCollection<Article> NewsCollection { get; set; }
+        public ICommand ReadMoreCommand { get; set; }
 
         //для поля пошуку
         private string query;
@@ -25,13 +30,6 @@ namespace NewsApiWPF.ViewModels
         //обрана стаття
         private Article selectedArticle;
         public Article SelectedArticle { get { return selectedArticle; } set { selectedArticle = value; OnPropertyChanged(); } }
-
-        //вся колекція
-        public ObservableCollection<Article> NewsCollection { get; set; }
-
-
-
-
 
         public MainViewModel()
         {
@@ -44,12 +42,17 @@ namespace NewsApiWPF.ViewModels
 
             _searchService.InitializeSearch(NewsCollection);
             LoadNewsAsync();
-
+            
+            ReadMoreCommand = new AsyncCommand<Article>(async (article) =>
+            {
+                await _commandService.OpenUrlAsync(article?.Url);
+            });
         }
 
         private async Task LoadNewsAsync()
         {
-            await _downloadNewsService.DownloadArticlesAsync(NewsCollection);
+            var fromDate = DateTime.Today.AddMonths(-1);
+            await _downloadNewsService.DownloadArticlesAsync(Query, SortBy, Language, fromDate, NewsCollection);
         }
 
         private void SearchTextBox_TextChanged(object sender, TextChangedEventArgs e)
@@ -58,11 +61,5 @@ namespace NewsApiWPF.ViewModels
 
             _searchService.OnSearchTextChanged(query);
         }
-
-        public IAsyncCommand<Article> ReadMoreCommand => new AsyncCommand<Article>(async (article) =>
-        {
-            await _commandService.OpenUrlAsync(article?.Url);
-        });
-
     }
 }

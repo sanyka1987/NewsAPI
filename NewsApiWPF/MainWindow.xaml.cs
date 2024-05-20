@@ -22,25 +22,25 @@ namespace NewsApiWPF
 {
     public partial class MainWindow : Window
     {
-        private readonly NewsService _newsService;
+        private readonly NewsService _newsService;//це переносимо
         private readonly SearchService _searchService;
         private readonly CommandService _commandService;
         private readonly DownloadNewsService _downloadNewsService;
 
-        public ObservableCollection<Article> NewsCollection { get; set; }
+        public ObservableCollection<Article> NewsCollection { get; set; }//аж до сюда переносимо
 
         public MainWindow()
         {
-            InitializeComponent();
-            _newsService = new NewsService();
+            InitializeComponent();//це тут лишається
+            _newsService = new NewsService();//а це в конструктор вьюмоделі
             _searchService = new SearchService(_newsService);
             _commandService = new CommandService();
-            _downloadNewsService = new DownloadNewsService(_newsService);
+            _downloadNewsService = new DownloadNewsService(_newsService);//до сюда перенесли
 
             DataContext = this;
-            NewsCollection = new ObservableCollection<Article>(); // Ініціалізація колекції
+            NewsCollection = new ObservableCollection<Article>(); // Ініціалізація колекції//теж перенесли
 
-            _searchService.InitializeSearch(NewsCollection);
+            _searchService.InitializeSearch(NewsCollection);//теж перенесли
             LoadNewsAsync(); // Виклик методу завантаження даних
         }
 

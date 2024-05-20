@@ -18,10 +18,9 @@ namespace NewsApiWPF.Service
             _newsService = newsService;
         }
 
-        public async Task DownloadArticlesAsync(ObservableCollection<Article> newsCollection)
+        public async Task DownloadArticlesAsync(string query, SortBys sortBy, Languages language, DateTime fromDate, ObservableCollection<Article> newsCollection)
         {
-            var fromDate = DateTime.Today.AddMonths(-1);
-            await _newsService.DisplayArticlesAsync("Apple", SortBys.Popularity, Languages.EN, fromDate, newsCollection);
+            await _newsService.DisplayArticlesAsync(query, sortBy, language, fromDate, newsCollection);
         }
     }
 }

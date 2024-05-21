@@ -27,12 +27,28 @@ namespace NewsApiWPF.ViewModels
         private string query;
         public string Query { get { return query; } set { query = value; OnPropertyChanged(); } }
 
+        //для поля типу пошуку
+        private string sortBy;
+        public string SortBy { get { return sortBy; } set { sortBy = value; OnPropertyChanged(); } }
+        public List<Object> SortByType;
+        public List<Object> SelectLanguage;
+
+
+        //для поля мови
+        private string language;
+        public string Language { get { return language; } set { language = value; OnPropertyChanged(); } }
+
         //обрана стаття
         private Article selectedArticle;
         public Article SelectedArticle { get { return selectedArticle; } set { selectedArticle = value; OnPropertyChanged(); } }
 
         public MainViewModel()
         {
+
+           var SortByType = Enum.GetValues(typeof(SortBys)).Cast<SortBys>().ToList();//тип сортування
+           var SelectLanguage = Enum.GetValues(typeof(Languages)).Cast<Languages>().ToList();//мова
+
+
             _newsService = new NewsService();
             _searchService = new SearchService(_newsService);
             _commandService = new CommandService();

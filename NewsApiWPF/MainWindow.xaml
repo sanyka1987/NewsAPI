@@ -1,10 +1,11 @@
 ﻿<Window x:Class="NewsApiWPF.MainWindow"
        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-       xmlns:local="clr-namespace:NewsApiWPF" xmlns:viewmodels="clr-namespace:NewsApiWPF.ViewModels" xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+       xmlns:local="clr-namespace:NewsApiWPF" xmlns:viewmodels="clr-namespace:NewsApiWPF.ViewModels" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" d:DataContext="{d:DesignInstance Type=viewmodels:MainViewModel}"
         Title="News Window" Height="600" Width="1000" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
@@ -13,7 +14,21 @@
             <TextBox Name="SearchTextBox" Width="200" Margin="0,0,10,0" TextChanged="SearchTextBox_TextChanged" Text="{Binding Query, Mode=TwoWay}"/>
         </StackPanel>
 
-        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+        <Grid Grid.Row="1">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            
+            <ComboBox  Height="30"  Width="200" ItemsSource="{Binding SortByType}"  SelectedValue="{Binding SortBy}"/>
+            <ComboBox Grid.Column="1" Height="30"  Width="200" ItemsSource="{Binding SelectLanguage}"  SelectedValue="{Binding Language}"/>
+
+
+
+        </Grid>
+
+        <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Auto">
             <ListBox ItemsSource="{Binding NewsCollection}" Name="NewsListBox" SelectedItem="{Binding SelectedArticle}" 
                      ScrollViewer.HorizontalScrollBarVisibility="Disabled">
                 <ListBox.ItemsPanel>

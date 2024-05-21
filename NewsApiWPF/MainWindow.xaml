@@ -7,6 +7,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
@@ -28,7 +29,16 @@
 
         </Grid>
 
-        <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Auto">
+        <StackPanel Grid.Row="2" Orientation="Horizontal" >
+            <Button x:Name="PreviousButton" Content="Previous" Command="PreviousPageCommand"/>
+            <TextBox x:Name="CurrentPage" Width="20" Text="{Binding CurrentPage, Mode=TwoWay}"/>
+            <TextBox  Text="of"/>
+            <TextBox x:Name="TotalPage" Width="20" Text="{Binding TotalPage, Mode=TwoWay}"/>
+
+            <Button x:Name="NextButton" Content="Next" Command="NextPageCommand"/>
+        </StackPanel>
+
+        <ScrollViewer Grid.Row="3" VerticalScrollBarVisibility="Auto">
             <ListBox ItemsSource="{Binding NewsCollection}" Name="NewsListBox" SelectedItem="{Binding SelectedArticle}" 
                      ScrollViewer.HorizontalScrollBarVisibility="Disabled">
                 <ListBox.ItemsPanel>

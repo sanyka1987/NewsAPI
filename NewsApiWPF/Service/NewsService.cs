@@ -24,6 +24,10 @@ namespace NewsApiWPF.Service
 
         public async Task DisplayArticlesAsync(string query, SortBys sortBy, Languages language, DateTime from, ObservableCollection<Article> newsCollection)
         {
+            if (newsCollection is null)
+            {
+                newsCollection = new ObservableCollection<Article>();
+            }
             try
             {
                 var articlesResponse = await GetArticlesAsync(query, sortBy, language, from);

@@ -30,12 +30,12 @@
         </Grid>
 
         <StackPanel Grid.Row="2" Orientation="Horizontal" >
-            <Button x:Name="PreviousButton" Content="Previous" Command="PreviousPageCommand"/>
-            <TextBox x:Name="CurrentPage" Width="20" Text="{Binding CurrentPage, Mode=TwoWay}"/>
-            <TextBox  Text="of"/>
-            <TextBox x:Name="TotalPage" Width="20" Text="{Binding TotalPage, Mode=TwoWay}"/>
+            <Button x:Name="PreviousButton" Content="Previous" Margin="150,0,0,0" Command="PreviousPageCommand"/>
+            <TextBox x:Name="CurrentPage"  Margin="150,0,0,0" Width="50" Text="{Binding CurrentPage, Mode=TwoWay}"/>
+            <TextBox  Text="of" Margin="100,0,0,0"/>
+            <TextBox x:Name="TotalPage"  Margin="100,0,0,0" Width="50"  Text="{Binding TotalPage, Mode=TwoWay}"/>
 
-            <Button x:Name="NextButton" Content="Next" Command="NextPageCommand"/>
+            <Button x:Name="NextButton" Content="Next" Margin="100,0,0,0" Command="NextPageCommand" />
         </StackPanel>
 
         <ScrollViewer Grid.Row="3" VerticalScrollBarVisibility="Auto">

@@ -29,7 +29,7 @@
 
         </Grid>
 
-        <StackPanel Grid.Row="2" Orientation="Horizontal" >
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
             <Button x:Name="PreviousButton" Content="Previous" Margin="150,0,0,0" Command="PreviousPageCommand"/>
             <TextBox x:Name="CurrentPage"  Margin="150,0,0,0" Width="50" Text="{Binding CurrentPage, Mode=TwoWay}"/>
             <TextBox  Text="of" Margin="100,0,0,0"/>

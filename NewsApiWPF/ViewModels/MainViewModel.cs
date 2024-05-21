@@ -55,8 +55,31 @@ namespace NewsApiWPF.ViewModels
         }
 
         //для поля мови
-        private string language;
-        public string Language { get { return language; } set { language = value; OnPropertyChanged(); } }
+        private Languages _lang;
+        public Languages Languages
+        {
+            get { return _lang; }
+            set
+            {
+                if (_lang != value)
+                {
+                    _lang = value;
+                    OnPropertyChanged();
+                    LoadNewsAsync();
+                }
+            }
+        }
+
+        private List<Languages> _availablleLang;
+        public List<Languages> AvailableLang
+        {
+            get { return _availablleLang; }
+            set
+            {
+                _availablleLang = value;
+                OnPropertyChanged();
+            }
+        }
 
         //обрана стаття
         private Article selectedArticle;

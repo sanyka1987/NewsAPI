@@ -20,8 +20,8 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            
-            <ComboBox  Height="30"  Width="200" ItemsSource="{Binding SortByType}"  SelectedValue="{Binding SortBy}"/>
+
+            <ComboBox  Height="30"  Width="200" ItemsSource="{Binding AvailableSortBy}"  SelectedItem="{Binding SortBy}"/>
             <ComboBox Grid.Column="1" Height="30"  Width="200" ItemsSource="{Binding SelectLanguage}"  SelectedValue="{Binding Language}"/>
 
 

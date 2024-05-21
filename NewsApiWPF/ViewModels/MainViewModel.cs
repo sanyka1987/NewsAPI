@@ -28,11 +28,31 @@ namespace NewsApiWPF.ViewModels
         public string Query { get { return query; } set { query = value; OnPropertyChanged(); } }
 
         //для поля типу пошуку
-        private string sortBy;
-        public string SortBy { get { return sortBy; } set { sortBy = value; OnPropertyChanged(); } }
-        public List<Object> SortByType;
-        public List<Object> SelectLanguage;
+        private SortBys _sortBys;
+        public SortBys SortBy
+        {
+            get { return _sortBys; }
+            set
+            {
+                if (_sortBys != value)
+                {
+                    _sortBys = value;
+                    OnPropertyChanged();
+                    LoadNewsAsync();
+                }
+            }
+        }
 
+        private List<SortBys> _availableSortBy;
+        public List<SortBys> AvailableSortBy
+        {
+            get { return _availableSortBy; }
+            set
+            {
+                _availableSortBy = value;
+                OnPropertyChanged();
+            }
+        }
 
         //для поля мови
         private string language;
@@ -45,8 +65,8 @@ namespace NewsApiWPF.ViewModels
         public MainViewModel()
         {
 
-           var SortByType = Enum.GetValues(typeof(SortBys)).Cast<SortBys>().ToList();//тип сортування
-           var SelectLanguage = Enum.GetValues(typeof(Languages)).Cast<Languages>().ToList();//мова
+         // var SortByType = Enum.GetValues(typeof(SortBys)).Cast<SortBys>().ToList();//тип сортування
+         
 
 
             _newsService = new NewsService();

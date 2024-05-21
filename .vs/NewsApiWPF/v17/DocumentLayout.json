@@ -3,23 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\NewsAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|c:\\users\\user\\documents\\github\\newsapi\\newsapiwpf\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|solutionrelative:newsapiwpf\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-<<<<<<< Updated upstream
-=======
-      "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|C:\\Users\\User\\Documents\\GitHub\\NewsAPI\\newsapiwpf\\service\\commandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|solutionrelative:newsapiwpf\\service\\commandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|C:\\Users\\User\\Documents\\GitHub\\NewsAPI\\newsapiwpf\\service\\downloadnewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|solutionrelative:newsapiwpf\\service\\downloadnewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
->>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|C:\\Users\\User\\Documents\\GitHub\\NewsAPI\\newsapiwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|solutionrelative:newsapiwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|c:\\users\\user\\documents\\github\\newsapi\\newsapiwpf\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|solutionrelative:newsapiwpf\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|c:\\users\\user\\documents\\github\\newsapi\\newsapiwpf\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,17 +19,12 @@
       "RelativeMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|solutionrelative:newsapiwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|C:\\Users\\User\\Documents\\GitHub\\NewsAPI\\newsapiwpf\\service\\downloadnewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|solutionrelative:newsapiwpf\\service\\downloadnewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|C:\\Users\\User\\Documents\\GitHub\\NewsAPI\\newsapiwpf\\service\\commandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|solutionrelative:newsapiwpf\\service\\commandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|c:\\users\\user\\documents\\github\\newsapi\\newsapiwpf\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|solutionrelative:newsapiwpf\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|C:\\Users\\User\\Documents\\GitHub\\NewsAPI\\newsapiwpf\\service\\searchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,24 +66,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "NewsApiWPF\\ViewModels\\MainViewModel.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\ViewModels\\MainViewModel.cs",
               "RelativeToolTip": "NewsApiWPF\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAswCIAAAAAAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAmwB8AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T19:54:44.452Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
               "DocumentIndex": 2,
-=======
-              "DocumentIndex": 5,
->>>>>>> Stashed changes
               "Title": "ViewModelBase.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\ViewModels\\ViewModelBase.cs",
               "RelativeDocumentMoniker": "NewsApiWPF\\ViewModels\\ViewModelBase.cs",
@@ -118,43 +98,27 @@
               "RelativeDocumentMoniker": "NewsApiWPF\\Service\\DownloadNewsService.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\Service\\DownloadNewsService.cs",
               "RelativeToolTip": "NewsApiWPF\\Service\\DownloadNewsService.cs",
-<<<<<<< Updated upstream
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABXAAAA",
-=======
-              "ViewState": "AQIAAAMAAAAAAAAAAAAswBsAAAAAAAAA",
->>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T18:08:49.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
               "DocumentIndex": 3,
-=======
-              "DocumentIndex": 4,
->>>>>>> Stashed changes
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "NewsApiWPF\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\MainWindow.xaml.cs",
               "RelativeToolTip": "NewsApiWPF\\MainWindow.xaml.cs",
-<<<<<<< Updated upstream
-              "ViewState": "AQIAABwAAAAAAAAAAAAswB4AAAAAAAAA",
-=======
-              "ViewState": "AQIAACQAAAAAAAAAAAAswDwAAAANAAAA",
->>>>>>> Stashed changes
+              "ViewState": "AQIAAB0AAAAAAAAAAAAswEYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T14:48:14.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 1,
-=======
-              "DocumentIndex": 3,
->>>>>>> Stashed changes
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\MainWindow.xaml",
               "RelativeDocumentMoniker": "NewsApiWPF\\MainWindow.xaml",
@@ -178,11 +142,7 @@
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
               "DocumentIndex": 5,
-=======
-              "DocumentIndex": 1,
->>>>>>> Stashed changes
               "Title": "CommandService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\Service\\CommandService.cs",
               "RelativeDocumentMoniker": "NewsApiWPF\\Service\\CommandService.cs",

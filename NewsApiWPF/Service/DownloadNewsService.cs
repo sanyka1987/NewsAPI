@@ -18,9 +18,10 @@ namespace NewsApiWPF.Service
             _newsService = newsService;
         }
 
-        public async Task DownloadArticlesAsync(string query, SortBys sortBy, Languages language, DateTime fromDate, ObservableCollection<Article> newsCollection)
+        public async Task<ArticlesResult> DownloadArticlesAsync(string query, SortBys sortBy, Languages language, DateTime fromDate, ObservableCollection<Article> newsCollection, int pageNumber, int numberArticles)
         {
-            await _newsService.DisplayArticlesAsync(query, sortBy, language, fromDate, newsCollection);
+            var response = await _newsService.DisplayArticlesAsync(query, sortBy, language, fromDate, newsCollection, pageNumber, numberArticles);
+            return response;
         }
     }
 }

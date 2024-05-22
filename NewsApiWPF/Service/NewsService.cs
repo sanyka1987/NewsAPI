@@ -17,12 +17,11 @@ namespace NewsApiWPF.Service
 
         public NewsService()
         {
-            // API ключ
-            var apiKey = "6e456040f8404d7db1d38e45e4261100";
+            var apiKey = "2dc65b2340524832bf4e4a7812f61b6e";
             _newsApiClient = new NewsApiClient(apiKey);
         }
 
-        public async Task DisplayArticlesAsync(string query, SortBys sortBy, Languages language, DateTime from, ObservableCollection<Article> newsCollection)
+        public async Task<ArticlesResult> DisplayArticlesAsync(string query, SortBys sortBy, Languages language, DateTime from, ObservableCollection<Article> newsCollection, int pageNumber, int numberArticles)
         {
             if (newsCollection is null)
             {
@@ -30,41 +29,39 @@ namespace NewsApiWPF.Service
             }
             try
             {
-                var articlesResponse = await GetArticlesAsync(query, sortBy, language, from);
+                var articlesResponse = await GetArticlesAsync(query, sortBy, language, from, pageNumber, numberArticles);
 
                 if (articlesResponse.Status == Statuses.Ok)
                 {
                     newsCollection.Clear();
                     foreach (var article in articlesResponse.Articles)
                     {
-                        // Перевірка наявності заголовка
                         if (!string.IsNullOrWhiteSpace(article.Title) && !string.IsNullOrWhiteSpace(article.Author))
                         {
                             newsCollection.Add(article);
                         }
                     }
                 }
-                else
-                {
-                    MessageBox.Show($"Failed to fetch news data.\nError: {articlesResponse.Error.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                }
+                return articlesResponse;
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                return null;
             }
         }
 
-        private async Task<ArticlesResult> GetArticlesAsync(string query, SortBys sortBy, Languages language, DateTime from)
+        private async Task<ArticlesResult> GetArticlesAsync(string query, SortBys sortBy, Languages language, DateTime from, int page, int numberArticles)
         {
             var request = new EverythingRequest
             {
                 Q = query,
                 SortBy = sortBy,
                 Language = language,
-                From = from
+                From = from,
+                PageSize = numberArticles,
+                Page = page
             };
-
             return await _newsApiClient.GetEverythingAsync(request);
         }
     }

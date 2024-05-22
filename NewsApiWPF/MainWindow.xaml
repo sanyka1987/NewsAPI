@@ -10,7 +10,7 @@
         </Grid.RowDefinitions>
 
         <StackPanel Orientation="Horizontal" Margin="10">
-            <TextBox Name="SearchTextBox" Width="200" Margin="0,0,10,0" TextChanged="SearchTextBox_TextChanged" Text="{Binding Query, Mode=TwoWay}"/>
+            <TextBox Name="SearchTextBox" Width="200" Margin="0,0,10,0" Text="{Binding Query, Mode=TwoWay}"/>
         </StackPanel>
 
         <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">

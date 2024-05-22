@@ -7,16 +7,27 @@ using System.Windows.Input;
 
 namespace NewsApiWPF.Commands
 {
-    public class AsyncCommand<T> : IAsyncCommand<T>
+    public class AsyncCommand : IAsyncCommand
     {
-        private readonly Func<T, Task> _command;
-        public AsyncCommand(Func<T, Task> command)
+        private readonly Func<Task> _command;
+        private readonly Func<bool> _canExecute;
+
+        public AsyncCommand(Func<Task> command, Func<bool> canExecute = null)
         {
             _command = command;
+            _canExecute = canExecute;
         }
-        public bool CanExecute(object parameter) => true;
-        public async Task ExecuteAsync(T parameter) => await _command(parameter);
-        async void ICommand.Execute(object parameter) => await ExecuteAsync((T)parameter);
-        public event EventHandler CanExecuteChanged;
+
+        public bool CanExecute(object parameter) => _canExecute?.Invoke() ?? true;
+
+        public async Task ExecuteAsync() => await _command();
+
+        async void ICommand.Execute(object parameter) => await ExecuteAsync();
+
+        public event EventHandler CanExecuteChanged
+        {
+            add { CommandManager.RequerySuggested += value; }
+            remove { CommandManager.RequerySuggested -= value; }
+        }
     }
 }

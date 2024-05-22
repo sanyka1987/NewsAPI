@@ -7,8 +7,8 @@ using System.Windows.Input;
 
 namespace NewsApiWPF.Commands
 {
-    public interface IAsyncCommand : ICommand
+    public interface IAsyncCommandParameter<T> : ICommand
     {
-        Task ExecuteAsync();
+        Task ExecuteAsync(T parameter);
     }
 }

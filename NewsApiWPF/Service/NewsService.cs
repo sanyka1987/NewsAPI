@@ -17,7 +17,7 @@ namespace NewsApiWPF.Service
 
         public NewsService()
         {
-            var apiKey = "2dc65b2340524832bf4e4a7812f61b6e";
+            var apiKey = "df875f7a22714912891f255125bfa53e";
             _newsApiClient = new NewsApiClient(apiKey);
         }
 

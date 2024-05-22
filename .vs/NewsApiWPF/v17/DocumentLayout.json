@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\newsapiwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\newsapiwpf\\service\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|solutionrelative:newsapiwpf\\service\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\newsapiwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|solutionrelative:newsapiwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|c:\\users\\sanyk\\documents\\github\\newsapi\\newsapiwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|solutionrelative:newsapiwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|c:\\users\\sanyk\\documents\\github\\newsapi\\newsapiwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|solutionrelative:newsapiwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|c:\\users\\sanyk\\documents\\github\\newsapi\\newsapiwpf\\obj\\debug\\mainwindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|solutionrelative:newsapiwpf\\obj\\debug\\mainwindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|c:\\users\\sanyk\\documents\\github\\newsapi\\newsapiwpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|solutionrelative:newsapiwpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\newsapiwpf\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|solutionrelative:newsapiwpf\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\newsapiwpf\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|solutionrelative:newsapiwpf\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\newsapiwpf\\service\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|solutionrelative:newsapiwpf\\service\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\newsapiwpf\\service\\downloadnewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,11 +35,15 @@
       "RelativeMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|solutionrelative:newsapiwpf\\service\\commandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\newsapiwpf\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|solutionrelative:newsapiwpf\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\newsapiwpf\\models\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|solutionrelative:newsapiwpf\\models\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|c:\\users\\sanyk\\documents\\github\\newsapi\\newsapiwpf\\commands\\iasynccommandparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\newsapiwpf\\commands\\iasynccommandparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|solutionrelative:newsapiwpf\\commands\\iasynccommandparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -43,7 +51,7 @@
       "RelativeMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|solutionrelative:newsapiwpf\\commands\\iasynccommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|c:\\users\\sanyk\\documents\\github\\newsapi\\newsapiwpf\\commands\\asynccommandparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\newsapiwpf\\commands\\asynccommandparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A2F4C4A-8001-4298-BEEB-A0E86BFB50AB}|NewsApiWPF\\NewsApiWPF.csproj|solutionrelative:newsapiwpf\\commands\\asynccommandparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -64,7 +72,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -72,7 +80,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
+              "Title": "MainWindow.g.cs",
+              "DocumentMoniker": "C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\obj\\Debug\\MainWindow.g.cs",
+              "RelativeDocumentMoniker": "NewsApiWPF\\obj\\Debug\\MainWindow.g.cs",
+              "ToolTip": "C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\obj\\Debug\\MainWindow.g.cs",
+              "RelativeToolTip": "NewsApiWPF\\obj\\Debug\\MainWindow.g.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T06:17:18.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\App.xaml",
+              "RelativeDocumentMoniker": "NewsApiWPF\\App.xaml",
+              "ToolTip": "C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\App.xaml",
+              "RelativeToolTip": "NewsApiWPF\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-22T06:16:38.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "IAsyncCommandParameter.cs",
               "DocumentMoniker": "C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\Commands\\IAsyncCommandParameter.cs",
               "RelativeDocumentMoniker": "NewsApiWPF\\Commands\\IAsyncCommandParameter.cs",
@@ -80,12 +113,11 @@
               "RelativeToolTip": "NewsApiWPF\\Commands\\IAsyncCommandParameter.cs*",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T05:30:12.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T05:30:12.846Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "AsyncCommandParameter.cs",
               "DocumentMoniker": "C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\Commands\\AsyncCommandParameter.cs",
               "RelativeDocumentMoniker": "NewsApiWPF\\Commands\\AsyncCommandParameter.cs",
@@ -93,17 +125,16 @@
               "RelativeToolTip": "NewsApiWPF\\Commands\\AsyncCommandParameter.cs*",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T05:29:51.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T05:29:51.772Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "NewsApiWPF\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\ViewModels\\MainViewModel.cs*",
-              "RelativeToolTip": "NewsApiWPF\\ViewModels\\MainViewModel.cs*",
+              "ToolTip": "C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "NewsApiWPF\\ViewModels\\MainViewModel.cs",
               "ViewState": "AQIAAI0AAAAAAAAAAAAAAA8AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T19:54:44.452Z",
@@ -111,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ViewModelBase.cs",
               "DocumentMoniker": "C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\ViewModels\\ViewModelBase.cs",
               "RelativeDocumentMoniker": "NewsApiWPF\\ViewModels\\ViewModelBase.cs",
@@ -119,12 +150,11 @@
               "RelativeToolTip": "NewsApiWPF\\ViewModels\\ViewModelBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T19:35:43.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T19:35:43.056Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DownloadNewsService.cs",
               "DocumentMoniker": "C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\Service\\DownloadNewsService.cs",
               "RelativeDocumentMoniker": "NewsApiWPF\\Service\\DownloadNewsService.cs",
@@ -137,12 +167,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "NewsApiWPF\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\MainWindow.xaml.cs*",
-              "RelativeToolTip": "NewsApiWPF\\MainWindow.xaml.cs*",
+              "ToolTip": "C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "NewsApiWPF\\MainWindow.xaml.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAswB4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T14:48:14.533Z",
@@ -162,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "AsyncCommandBase.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\Commands\\AsyncCommandBase.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\User\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\Commands\\AsyncCommandBase.cs",
@@ -174,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CommandService.cs",
               "DocumentMoniker": "C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\Service\\CommandService.cs",
               "RelativeDocumentMoniker": "NewsApiWPF\\Service\\CommandService.cs",
@@ -187,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "IAsyncCommand.cs",
               "DocumentMoniker": "C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\Commands\\IAsyncCommand.cs",
               "RelativeDocumentMoniker": "NewsApiWPF\\Commands\\IAsyncCommand.cs",
@@ -195,12 +225,11 @@
               "RelativeToolTip": "NewsApiWPF\\Commands\\IAsyncCommand.cs*",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T16:18:47.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T16:18:47.916Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "News.cs",
               "DocumentMoniker": "C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\Models\\News.cs",
               "RelativeDocumentMoniker": "NewsApiWPF\\Models\\News.cs",
@@ -208,12 +237,11 @@
               "RelativeToolTip": "NewsApiWPF\\Models\\News.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T16:25:37.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T16:25:37.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "AsyncCommand.cs",
               "DocumentMoniker": "C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\Commands\\AsyncCommand.cs",
               "RelativeDocumentMoniker": "NewsApiWPF\\Commands\\AsyncCommand.cs",
@@ -221,12 +249,11 @@
               "RelativeToolTip": "NewsApiWPF\\Commands\\AsyncCommand.cs*",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T16:18:35.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T16:18:35.819Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "SearchService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\Service\\SearchService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\User\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\Service\\SearchService.cs",
@@ -238,13 +265,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "NewsService.cs",
               "DocumentMoniker": "C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\Service\\NewsService.cs",
               "RelativeDocumentMoniker": "NewsApiWPF\\Service\\NewsService.cs",
-              "ToolTip": "C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\Service\\NewsService.cs",
-              "RelativeToolTip": "NewsApiWPF\\Service\\NewsService.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAABgAAAAJAAAA",
+              "ToolTip": "C:\\Users\\sanyk\\Documents\\GitHub\\NewsAPI\\NewsApiWPF\\Service\\NewsService.cs*",
+              "RelativeToolTip": "NewsApiWPF\\Service\\NewsService.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T14:36:30.037Z",
               "EditorCaption": ""
